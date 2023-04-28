@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My personal details</p>
+    <p>09012126759</p>
+    <p>muqmilat@gmail.com</p>
+    <hr />
+    <form action="mailto:muqmilat@gmail.com" method="post">
+      <p>
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Enter your Full Name" name="name" />
+      </p>
+      <p>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter your email" name="email" />
+      </p>
+      <p>
+        <label for="pno">Phone Number: </label>
+        <input type="number" placeholder="Enter your Number" name="PhoneNo" />
+      </p>
+
+      <p>
+        <label for="gender">Gender: </label><br />
+        <input type="radio" name="gender" />Male
+        <br />
+        <input type="radio" name="gender" />Female <br />
+        <input type="radio" name="gender" />Others
+      </p>
+      <label for="ask">Do you want to sign in the mail for?</label><br />
+      <input type="checkbox" name="ask" /> Yes <br />
+      <p>
+        <select name="signin">
+          <option value="facebook">Facebook</option>
+          <option value="whatsapp">Whatsapp</option>
+          <option value="phone">Phone Number</option>
+        </select>
+      </p>
+      <textarea name="comment" cols="30" rows="10">
+        
+Please, leave your comments...</textarea
+      >
+      <br />
+      <button>Submit</button>
+    </form>
+    <hr />
+    <a href="../../index.html">&larr; Back Home </a>
+  </body>
+</html>
